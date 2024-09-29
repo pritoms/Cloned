@@ -1,0 +1,14 @@
+-2 header : computation, preparation, measurement, other construction
+—1 Load binary file from path (..)
+-0 Load binaries into subsystem memory (..)
++0 Load state dictionaries from task file (..)
++1 Load network parameters with state dictionaries (..)
+1+ Network
+0+ Output
+0- Input
+1- Memory
+-1 compute(1-, 0-)
+-0 prepare(0-, 0+)
++0 measure(0+, 1+)
++1 counter(1+, -1)
++2 footer : counterfactual, accuracy, state, transformation
