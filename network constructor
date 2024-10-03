@@ -65,4 +65,15 @@
 0- the nucleus should adjust the radiating energy per similarity measure causing the distance extrinsic variable side length apart from the core
 0+ for mid similarity larger than side difference, the self attention is larger while when the difference is greater than the similarity, self attention becomes reduced and cross attention dominates
 1+ active attention in generating phase require relatively more mid than side where perceiving the environment or listening for external inputs the side dominates the mid
-+1
++1 defining possible construction coordinates and building knowledge from tasks.
++0 create a system with two levels and two observables per level
+-0 some physical resource is transformed between the two levels and the observables are defined on the corresponding state
+-1 forward pass requires a vector indicating the computation and preparation variables.
+1- the output of a transformed vector is another vector containing another possible forward pass on the system
+0- there is an agent defined on the state whose transformation of the variables in vector with the function defined as parameters of change causes the output vector
+0+ the output is another set of coordinate defined on the state of the system mapping some subsystem and possible transformation of associated observables
+1+ for example, (computation, preparation) and (measurement, construction) maps some (computation, measurement) variables from (preparation, construction) variables.
++1 computation on the memory of a constructed subsystem prepared from the previous measurement will create a new measurement which can guide the preparation of the subsystems in order to define other construction task
++0 construction task defines a mapping of input attribute of substrate to output attributes of substrate
+-0 computation on the system prepared with the task parameters creates a measurable property within the system
+-1 measurement determines the accuracy of transformation using the tolerance defined for the task and prepares the system for another construction task
