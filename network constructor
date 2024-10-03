@@ -1,0 +1,48 @@
+-1 state of network that solves problem
+-0 initialization of state to match problem situation
++0 constructor of solution state from prepared state
++1 solution state of network initialized with problem state
+1+ measurement of output
+0+ preparation of memory
+0- computation of solution
+1- construction of problem
+-1 setting up of computation environment
+-0 building paths of travel between labeled endpoints
++0 creating correspondence between labels and functions
++1 functions to gateways
+1+ create unit sphere
+0+ create levels within spherical structure
+0- setup boundary line seperating two boolean states
+1- map boolean observables within structured frameworks
+-1 for each class of problems assign unit spheres
+-0 inside a sphere map every possible states to attributable properties
++0 setup functions on states for every intrinsic parameters
++1 setup transition laws between each configurable structures
+1+ configuration of a machine with two levels of information
+0+ information state of the machine maps possible amplitude to possible position
+0- computation state of the machine maps possible positions to possible measure
+1- possible measurement of the machine state maps a possible information state to another possible information state
+-1 construction of the machine memory
+-0 computation on the memory state
++0 preparation of the memory state
++1 measurement on the machine memory
+1+ building a recurrent network
+0+ train it all series steps
+0- create information variable
+1- replace data points
+-1 theta maps (12, .., 6, ..., 11) per change in radius
+-0 radius maps (24, ..., 12, ..., 23) per change in phi
++0 phi maps (60, ..., 30, ..., 59) per change in psi
++1 imaginary state by little change for change over possible difference
+1+ i * ħ per change in (psi, t) = (-1) * (ħ * ħ) / (m + m) per change in (psi, x) twice + value attached to x per change in coordinate
+0+ (i, h, psi, t) and (-1, h, m, psi, x, v(x), phi)
+0- v(x) could be replaced with r of (*, phi, theta) and ħ mapping all y in (x, *, z)
+1- psi and t mapping z and sqauared sum of all (x, y, z)
+-1 in a period of time (second, minute, hour, day, ..., motion) describes all changing quantities
+-0 starting with time.time() certain value of theta, phi, r will map some x, y, z at measured time to other time.time() later
++0 input to a recurrent network with memory returns output and associated memory
++1 the memory associated will always produce the same (output, memory) for the same set of (input, memory) pairs
+1+ let every pair of (input, output) memories map (cartesian, spherical) to (spherical, cartesian)
+0+ memory maps positional input in cartesian space to positional output in the same space with situational input in spherical space mapping each memory with dense state to another memory
+0- labeled input-output resides on the cartesian space while (memory, density) evolving the initial memory in spherical space
+1- 
