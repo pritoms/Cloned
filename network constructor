@@ -45,4 +45,12 @@
 1+ let every pair of (input, output) memories map (cartesian, spherical) to (spherical, cartesian)
 0+ memory maps positional input in cartesian space to positional output in the same space with situational input in spherical space mapping each memory with dense state to another memory
 0- labeled input-output resides on the cartesian space while (memory, density) evolving the initial memory in spherical space
-1- 
+1- every labelel datapoint in a distribution valued function, prepare the cartesian space representing every points in the dataset
+0- for each point in the space, there is a function mapping the function of the datapoint to the point in the space
+0+ find a network whose state computes the distribution valued function space for every token valued memory space
+1+ for every datapoint (0, 0, 1) -> (1, 0, 0), the network prepares the (r, phi, theta) so that function of the network memory maps (r, phi, theta) -> (x, y, z) corresponding to the next datapoint
++1 process every token position in a sequence via computing the state that maps every position coordinate to the other position coordinate
++0 optimize the network parameters between every computation by using the criterion for (velocity, frequency, wavelength) and (forward/backward, leftward/rightward, upward/downward)
+-0 (input, output, loss, preferred) -> (x, y, z, i) where i is the expected change for given shift as input and output is the predicted shift which computes a distance as loss for single bit of information
+-1 (activation, weight, bias, input) -> (r, theta, phi, j) where j = -i and phi applies the shift to weighted effect in the inclination with the intensity produced by the input corresponding to (r, theta).
+
