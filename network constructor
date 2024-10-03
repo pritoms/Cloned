@@ -53,4 +53,16 @@
 +0 optimize the network parameters between every computation by using the criterion for (velocity, frequency, wavelength) and (forward/backward, leftward/rightward, upward/downward)
 -0 (input, output, loss, preferred) -> (x, y, z, i) where i is the expected change for given shift as input and output is the predicted shift which computes a distance as loss for single bit of information
 -1 (activation, weight, bias, input) -> (r, theta, phi, j) where j = -i and phi applies the shift to weighted effect in the inclination with the intensity produced by the input corresponding to (r, theta).
-
+1- let two networks be mapping (left, right) -> (mid, side)
+0- inputs from the left or mid maps to mid or side
+0+ outputs from right or side mapped from side or right inputs
+1+ create an encoder-decoder network with shared memory such that for all permutations of (left, mid, side, right) from input to output, (memory[left, mid], memory[right, side]) -> (memory[mid, left], memory[side, right]).
++1 left and right denotes input and output as extrinsic information
++0 mid and side denotes similarity and difference measures using intrinsic information
+-0 defining an information and computation function on the joint system using two different networks each with two levels of processing nodes
+-1 given a pair of input-output measures as (left, right) pairs, mid, memory = encoder(left, memory) and decoder(right, memory) = side, memory
+1- the two memory should cross connect to cause left, memory = decoder(mid, memory) and encoder(side, memory) -> right, memory.
+0- the nucleus should adjust the radiating energy per similarity measure causing the distance extrinsic variable side length apart from the core
+0+ for mid similarity larger than side difference, the self attention is larger while when the difference is greater than the similarity, self attention becomes reduced and cross attention dominates
+1+ active attention in generating phase require relatively more mid than side where perceiving the environment or listening for external inputs the side dominates the mid
++1
