@@ -41,3 +41,7 @@ some transmission medium will use its computation variables (phi, x) and informa
 
 the receiver uses some process that will distinguish between x and y dependending on the computation associated with (phi, theta) and (i, j) where i : phi -> x and j : theta -> y.
 
+
+the medium creates two equal length buffers called "left" and "right". with a constant radius vector angled as -pi / 2 from the normal axis, a scanning samples the right pole of the sender terminal and continues through to the +pi / 2 away from the normal axis where the changes are copied at the left pole of the receiver terminal and continues clockwise. for the lower half if the circle, the medium completes the switching related configurations such that the next revolution would place the receiver at senders pole and sender at receivers pole.
+
+the object systems have terminals that can operate with both read and write modes. upon connecting to the medium, a buffer gets initialized which has twice the length of the static wavelength, half of which is used for writing changes and the half contains transmissible bytes.
