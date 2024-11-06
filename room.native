@@ -1,10 +1,1 @@
-generic programmable space:
- - some resource used in space construction
- - room image prepared or loaded
- - impulse-response function
-
-
-since the structure is linear time invarient:
- - there are entities present inside the enclosed region
- - object system of the entity is abstracted
- - room dynamics change
+where to start!
