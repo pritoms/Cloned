@@ -1,0 +1,18 @@
+linear time invarient function:
+ - dynamics do not depend on specific external time
+ - function at one time is equivalent to another
+ - objects affect via linear change in motion
+ - impulse causes proportional change
+ - superposition principle holds
+
+linerity:
+ - response to sum of two impulses is same as the sum of responses to individual impulse signal
+
+honogeneity:
+ - scaling input is equal to scaling output by same factor
+
+time invarience:
+ - shifting input of function x(t) by h will cause shift in output of function y(t) by g where h = g
+
+impulse-response:
+ - if h(t) is the response for unit impulse delta(t) -- for arbitrary input, the output is the convolution of impulse response with the input signal.
